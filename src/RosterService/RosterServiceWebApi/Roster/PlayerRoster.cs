@@ -9,7 +9,6 @@ namespace RosterServiceWebApi.Roster
     [Route("players")]
     public class PlayerController : Controller
     {
-
         [HttpGet]
         public IEnumerable<PlayerApiModel> GetPlayers()
         {
@@ -23,6 +22,11 @@ namespace RosterServiceWebApi.Roster
                   {
                       LastName = "Godwin",
                       FirstName = "Chris"
+                  },
+                  new PlayerApiModel()
+                  {
+                      LastName = "Evans",
+                      FirstName = "Mike"
                   }
             };
 
