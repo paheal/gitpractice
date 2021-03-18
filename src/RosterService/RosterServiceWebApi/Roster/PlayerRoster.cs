@@ -27,6 +27,11 @@ namespace RosterServiceWebApi.Roster
                   {
                       LastName = "Evans",
                       FirstName = "Mike"
+                  },
+                  new PlayerApiModel()
+                  {
+                      LastName = "Jason",
+                      FirstName = "Pierre-Paul"
                   }
             };
 
